@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "North Trail 45L Hiking Backpack - Waterproof Green",
+    "price": 129,
+    "image": "/images/backpack.jpg",
+    "category": "Backpacks"
+  },
+  {
+    "id": 2,
+    "name": "Summit Pro Hiking Boots - Waterproof & Breathable",
+    "price": 159,
+    "image": "/images/boots.jpg",
+    "category": "Footwear"
+  },
+  {
+    "id": 3,
+    "name": "TrailMaster 2-Person Ultralight Tent - All Season",
+    "price": 249,
+    "image": "/images/tent.jpg",
+    "category": "Equipment"
+  }
+]
