@@ -6,7 +6,7 @@ const products = [
     id: 1,
     name: "Nebula Glow Serum",
     price: 49.99,
-    image: "/images/product1.jpg",
+    image: "images/product1.jpg",
     category: "Serums",
     description: "Infused with cosmic particles for an otherworldly glow.",
     rating: 4.8,
@@ -16,7 +16,7 @@ const products = [
     id: 2,
     name: "Stardust Moisturizer",
     price: 39.99,
-    image: "/images/product2.jpg",
+    image: "images/product2.jpg",
     category: "Moisturizers",
     description: "Lightweight hydration with stardust minerals.",
     rating: 4.7,
@@ -26,7 +26,7 @@ const products = [
     id: 3,
     name: "Galaxy Mud Mask",
     price: 29.99,
-    image: "/images/product3.jpg",
+    image: "images/product3.jpg",
     category: "Masks",
     description: "Deep cleansing mask with rare cosmic clay.",
     rating: 4.9,
@@ -36,7 +36,7 @@ const products = [
     id: 4,
     name: "Solar Flare Cleanser",
     price: 24.99,
-    image: "/images/product4.jpg",
+    image: "images/product4.jpg",
     category: "Cleansers",
     description: "Energizing cleanser that removes impurities with the power of the sun.",
     rating: 4.6,
@@ -46,7 +46,7 @@ const products = [
     id: 5,
     name: "Celestial Hydrating Toner",
     price: 22.99,
-    image: "/images/product5.jpg",
+    image: "images/product5.jpg",
     category: "Cleansers",
     description: "Balancing toner with asteroid water essence.",
     rating: 4.5,
@@ -56,7 +56,7 @@ const products = [
     id: 6,
     name: "Cosmic Retinol Serum",
     price: 59.99,
-    image: "/images/product6.jpg",
+    image: "images/product6.jpg",
     category: "Serums",
     description: "Advanced anti-aging formula with meteor-derived retinol.",
     rating: 4.9,
@@ -66,7 +66,7 @@ const products = [
     id: 7,
     name: "Supernova Night Cream",
     price: 49.99,
-    image: "/images/product7.jpg",
+    image: "images/product7.jpg",
     category: "Moisturizers",
     description: "Rejuvenating overnight treatment with supernova extracts.",
     rating: 4.8,
@@ -76,7 +76,7 @@ const products = [
     id: 8,
     name: "Aurora Revitalizing Mask",
     price: 34.99,
-    image: "/images/product8.jpg",
+    image: "images/product8.jpg",
     category: "Masks",
     description: "Color-changing mask inspired by the aurora borealis.",
     rating: 4.7,
@@ -98,7 +98,7 @@ function displayProducts(products) {
     productDiv.dataset.category = product.category;
     
     // Use placeholder image if actual image is not available
-    const imageSrc = product.image || '/images/placeholder.jpg';
+    const imageSrc = product.image || 'images/placeholder.jpg';
     
     productDiv.innerHTML = `
       <div class="product-header">
